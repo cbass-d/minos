@@ -17,3 +17,13 @@ Minos also provides the first and last host address, as well as the broadcast ad
 
 ![images info](./images/minos_subnet_table.jpg)
 
+### Running using Docker container
+Minos can easily be ran locally using a Docker container.
+Pre-requirements:
+* Docker
+
+Launching container:
+```cd MINOS-LOCATION```
+```docker compose up```
+
+Visit: http://localhost:3000 to use app

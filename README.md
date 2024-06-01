@@ -22,8 +22,27 @@ Minos can easily be ran locally using a Docker container.
 Pre-requirements:
 * Docker
 
-Launching container:
-```cd MINOS-LOCATION```
-```docker compose up```
-
+Launching container (from minos parent directory):
+```
+$ docker compose up
+```
 Visit: http://localhost:3000 to use app
+
+To tear down:
+```
+$ docker compose down
+```
+Port number used on host machine can be modified by making changes to `docker-compose.yaml`:
+```diff
+name: minos
+
+services:
+  app:
+    build: .
+    ports:
+-      - 127.0.0.1:3000:3000
++      - 127.0.0.1:9000:3000
+
+```
+The change above modifes the port to from 3000 to 9000 on host machine
+

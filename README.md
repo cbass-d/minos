@@ -45,5 +45,5 @@ services:
 +      - 127.0.0.1:9000:3000
 
 ```
-The change above modifes the port to from 3000 to 9000 on host machine
+The change above modifes the port from 3000 to 9000 on host machine
 

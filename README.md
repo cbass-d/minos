@@ -21,6 +21,7 @@ Minos also provides the first and last host address, as well as the broadcast ad
 Minos can easily be ran locally using a Docker container.
 Pre-requirements:
 * Docker
+* Docker Compose
 
 Launching container (from minos parent directory):
 ```

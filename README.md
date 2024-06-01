@@ -6,7 +6,7 @@ address range into the desired amount of subnets. The mask can be provided in ei
 octet format (ex. 255.255.255.0) or in CIDR notation (ex \24).
 
 ![image info](./images/mask_octect_format.jpg)
-![images info](./images/mask_octect_format.jpg)
+![images info](./images/mask_cidr_format.jpg)
 
 Minos provides a visual repersentation of the bits used when applying a network mask 
 and when creating new subnets. 
